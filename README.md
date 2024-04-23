@@ -21,7 +21,7 @@ This is a simple Todo application built with React and Redux.
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/DeveloperAnilKumar/to-do-app.git
    ```
 
 2. Navigate into the project directory:
@@ -40,6 +40,6 @@ This is a simple Todo application built with React and Redux.
 
 ## Usage
 
-- Enter the name and price of the task in the input fields.
+- Enter the product name and product price of the task in the input fields.
 - Click "Add Task" to add the task to the list.
 - Click the "Delete" button next to a task to delete it from the list.

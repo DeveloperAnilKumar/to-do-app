@@ -7,6 +7,7 @@ function ViewTodos() {
   return (
     <div className="mt-2 mx-2">
       <p className="h2 text-center">Todo List</p>
+  
       {todos?.map((todo, index) => {
         return (
           <ul key={todo} className="d-flex gap-4 list-unstyled list-group ">
