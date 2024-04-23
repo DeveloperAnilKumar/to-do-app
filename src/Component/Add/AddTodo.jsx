@@ -12,11 +12,16 @@ function AddTodo() {
 
   const [error, setError] = useState("");
 
+  // Redux dispatch function
   const dispatch = useDispatch();
+
+  // Function to handle changes in form inputs
   function handleChange(e) {
     const { name, value } = e.target;
     setTodo((prev) => ({ ...prev, [name]: value }));
   }
+
+  // Function to handle form submission
   function handleSubmit(e) {
     e.preventDefault();
 

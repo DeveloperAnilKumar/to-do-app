@@ -2,12 +2,15 @@ import { useDispatch, useSelector } from "react-redux";
 import { deleteTask } from "../redux/store/slice/todoSlice";
 
 function ViewTodos() {
+  // Retrieve todos from Redux store state
   const { todos } = useSelector((state) => state.todo);
+
+  // Redux dispatch function
   const dispatch = useDispatch();
   return (
     <div className="mt-2 mx-2">
       <p className="h2 text-center">Todo List</p>
-  
+
       {todos?.map((todo, index) => {
         return (
           <ul key={todo} className="d-flex gap-4 list-unstyled list-group ">
